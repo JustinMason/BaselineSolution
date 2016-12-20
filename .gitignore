@@ -1,0 +1,31 @@
+bin
+obj
+project.lock.json
+*.user
+.vs/
+artifacts
+node_modules
+*~
+*.log
+*.orig
+*.sw?
+dist
+# Build results
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+logs/
+build/
+[Bb]in/
+[Oo]bj/
+logs/
+.idea/
+
+# NServiceBus Logs
+**/App_Data/logs/log-*
+**/App_Data/nsb_log*
+
+# Always include package folder content
+**/packages/**/*.*
+.vscode/

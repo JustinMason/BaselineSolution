@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<metadata>
+  <id>Database</id>
+  <title>Database</title>
+  <authors>Clear Measure</authors>
+  <owners>Clear Measure</owners>
+  <version>1.0.0.0</version>
+  <licenseUrl>http://www.clear-measure.com</licenseUrl>
+  <projectUrl></projectUrl>
+  <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  <description>Database DbUp scripts for Dealer Portal</description>
+</metadata>
+<files>
+  <file src="DatabaseName\**" target="scripts" />
+  <file src="PostDeploy.ps1"  />
+</files>
+</package>
